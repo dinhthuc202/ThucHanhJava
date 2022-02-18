@@ -31,5 +31,6 @@ public class App2 {
         } else {
             System.out.println("He phuong trinh co nghiem la: x= "+ (Dx / D) + " va y = " + (Dy / D));
         }
+        sc.close();
     }
 }

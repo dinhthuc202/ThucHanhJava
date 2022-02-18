@@ -27,5 +27,6 @@ public class App {
                 System.out.println("Phuong trinh co hai nghiem: x1= "+ x1 + " va x2 = " + x2);
             }
         }
+        sc.close();
     }
 }

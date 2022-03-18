@@ -5,11 +5,10 @@ public class HinhTron {
     float r;
     float cv;
     float dt;
-    Scanner sc = new Scanner(System.in);
+    private static Scanner sc = new Scanner(System.in);
     public void NhapBanKinh()
     {
         System.out.print("Nhap vao ban kinh hinh tron: ");
-        Scanner sc = new Scanner(System.in);
         r = sc.nextFloat();
     }
 

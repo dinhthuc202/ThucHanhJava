@@ -5,15 +5,14 @@ public class HinhChuNhat {
     float cr;
     float cv;
     float dt;
+    private static Scanner sc = new Scanner(System.in);
     public void nhapChieuDai()
     {
-        Scanner sc = new Scanner(System.in);
         System.out.print("Nhap chieu dai cua HCN: ");
         cd = sc.nextFloat();
     }
     public void nhapChieuRong()
     {
-        Scanner sc = new Scanner(System.in);
         System.out.print("Nhap chieu rong cua HCN: ");
         cr = sc.nextFloat();
     }

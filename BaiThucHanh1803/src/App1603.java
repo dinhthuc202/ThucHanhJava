@@ -4,7 +4,6 @@ public class App1603 {
         Preson a = new Preson();
         SinhVien b = new SinhVien();
         PhuongTrinhBacHai c = new PhuongTrinhBacHai();
-
         // Preson
         a.nhapPresonID();
         a.nhapPresonName();
@@ -22,9 +21,9 @@ public class App1603 {
         b.nhapDiaChi();
         System.out.println("\n");
         b.intt();
-
+        
         //ptb2
         c.nhapgiatri();
-        c.giaiptb2();
+        c.inkq(c.giaiptb2());
     }
 }

@@ -1,8 +1,6 @@
 package shapes;
-
 import java.util.Scanner;
 public class HinhTron {
-    
     final float PI = 3.14f;
     float r;
     float cv;

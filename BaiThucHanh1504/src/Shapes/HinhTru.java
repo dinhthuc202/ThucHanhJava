@@ -6,6 +6,7 @@ public class HinhTru extends HinhTron {
 
     public HinhTru()
     {
+        super();//Static
         ten = "Hình Trụ";
     }
 
@@ -22,5 +23,11 @@ public class HinhTru extends HinhTron {
     {
         tinhDienTich();
         theTich = dienTich * chieuCao;
+    }
+
+    @Override
+    public void xuatThongTin()
+    {
+        System.out.println("Đây là hình trụ.");
     }
 }

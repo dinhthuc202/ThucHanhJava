@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class HinhVuong extends HinhChuNhat {
     public HinhVuong()
     {
+        super();//Static
         ten = "Hình Vuông";
     }
 

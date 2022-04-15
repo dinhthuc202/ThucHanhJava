@@ -5,7 +5,7 @@ import Shapes.HinhVuong;
 
 public class App54 {
     public static void main(String[] args) throws Exception {
-        
+    
         //Hình tròn
         HinhTron hinhtron = new HinhTron();
         hinhtron.xuatTen();
@@ -29,7 +29,7 @@ public class App54 {
         hinhchunhat.tinhDienTich();
         hinhchunhat.inchuVi();
         hinhchunhat.indienTich();
-        
+    
         //Hình Vuông
         HinhVuong hinhvuong = new HinhVuong();
         hinhvuong.nhapCanh();

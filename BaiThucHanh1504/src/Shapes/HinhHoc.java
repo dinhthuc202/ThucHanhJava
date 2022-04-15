@@ -24,4 +24,11 @@ public class HinhHoc {
     {
         System.out.println("The tich = " + theTich);
     }
+
+    //Ví dụ Static
+    public static int dem = 0;
+    //Constructor
+    public HinhHoc(){
+        dem++;
+    }
 }

@@ -7,6 +7,7 @@ public class HinhChuNhat extends HinhHoc {
 
     public HinhChuNhat()
     {
+        super();//Static
         ten = "Hình Chữ Nhật";
     }
 

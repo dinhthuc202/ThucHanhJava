@@ -1,7 +1,5 @@
 import Shapes.HinhChuNhat;
 import Shapes.HinhTron;
-import Shapes.HinhVuong;
-import Shapes.HinhTru;
 import Shapes.HinhHoc;
 
 public class App75 {

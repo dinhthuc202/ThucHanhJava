@@ -4,7 +4,7 @@ public class App1603 {
         Preson a = new Preson();
         SinhVien b = new SinhVien();
         PhuongTrinhBacHai c = new PhuongTrinhBacHai();
-        // Preson
+        //Preson
         a.nhapPresonID();
         a.nhapPresonName();
         a.nhapGender();
@@ -17,8 +17,8 @@ public class App1603 {
         b.nhapMaSinhVien();
         b.nhapHoTen();
         b.nhapNgaySinh();
-        b.nhapGioiTinh();
         b.nhapDiaChi();
+        b.nhapGioiTinh();
         System.out.println("\n");
         b.intt();
         

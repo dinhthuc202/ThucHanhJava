@@ -6,22 +6,24 @@ public class Preson {
     String Address;
     boolean Gender;
 
-    private static Scanner sc = new Scanner(System.in);
-
     void nhapPresonID()
     {
+        Scanner sc = new Scanner(System.in);
         System.out.print("Preson ID: ");
         PresonID = sc.nextLine();
     }
     void nhapPresonName(){
+        Scanner sc = new Scanner(System.in);
         System.out.print("Preson Name: ");
         PresonName = sc.nextLine();
     }
     void nhapAddress(){
+        Scanner sc = new Scanner(System.in);
         System.out.print("Address: ");
         Address = sc.nextLine();
     }
     void nhapGender(){
+        Scanner sc = new Scanner(System.in);
         System.out.print("Gender (Male - true | Female - false): ");
         Gender = sc.nextBoolean();
     }

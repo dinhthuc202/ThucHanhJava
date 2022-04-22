@@ -2,23 +2,23 @@ package Student;
 import Person.Person;
 
 public class Student extends Person{
-    private String Msv;
-    private String Lop;
-    public String HinhThucHoc;
+    protected String Msv;
+    protected String Lop;
+    protected String HinhThucHoc;
 
-    public void nhaptt1()
+    protected void nhapttSudent()
     {
         nhaptt();
-        System.out.print("Mã sinh viên: ");
-        Msv = sc.nextLine();
         System.out.print("Lớp: ");
-        Lop = sc.nextLine();
+        Lop = sc.next();
+        System.out.print("Mã sinh viên: ");
+        Msv = sc.next();
     }
 
-    public void intt1()
+    protected void inttStudent()
     {
         intt();
-        System.out.print("Mã sinh viên: " + Msv);
-        System.out.print("Lớp: " + Lop);
+        System.out.println("Lớp: " + Lop);
+        System.out.println("Mã sinh viên: " + Msv);
     }
 }

@@ -3,12 +3,18 @@ package Employee;
 public class PartTimeEmployee extends Employee{
     private int GioLamViec; //Tổng số giờ làm việc của nhân viên
 
-    @Override
-    public void nhaptt()
+    public void nhapttPartTime()
     {
-        System.out.println("Tổng số giờ làm việc: "+ GioLamViec);
+        nhapttEmployee();
+        System.out.print("Tổng số giờ làm việc: ");
+        GioLamViec = sc.nextInt();
     }
 
+    public void inttPartTimne()
+    {
+        inttEmployee();
+    }
+    
     @Override
     public String loaiNhanVien()
     {

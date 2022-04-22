@@ -1,12 +1,13 @@
 package Employee;
 
-public class FullTiemEmployee extends Employee{
+
+public class FullTimeEmployee extends Employee{
     private int ngayLamThem;//Số ngày làm thêm
     private int loaiChucVu;
 
-    @Override
-    public void nhaptt()
+    public void nhapttFullTime()
     {
+        nhapttEmployee();
         System.out.print("Số ngày làm thêm: ");
         ngayLamThem = sc.nextInt();
         do {
@@ -16,6 +17,11 @@ public class FullTiemEmployee extends Employee{
                 System.out.print("Giá trị không hợp lệ. Vui lòng nhập lại.");
             }
         } while (loaiChucVu != 1 && loaiChucVu !=2);
+    }
+
+    public void inttFullTime()
+    {
+        inttEmployee();
     }
 
     @Override

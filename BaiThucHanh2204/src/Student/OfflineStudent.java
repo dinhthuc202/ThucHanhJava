@@ -10,7 +10,7 @@ public class OfflineStudent extends Student{
     public void nhapttOff()
     {
         nhapttSudent();
-        System.out.println("Phương tiện đi lại: ");
+        System.out.print("Phương tiện đi lại: ");
         PhuongTienDiLai = sc.nextLine();
     }
     public void inttOff()

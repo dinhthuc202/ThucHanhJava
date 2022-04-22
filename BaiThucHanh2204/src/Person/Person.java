@@ -19,6 +19,8 @@ public class Person {
     
         System.out.print("Tuổi: ");
         Tuoi = sc.nextInt(); 
+
+        sc.nextLine();//Dùng để loại bỏ phím enter còn trong bộ nhớ đệm
     }
 
     protected void intt()

@@ -27,5 +27,6 @@ public class AppPerson {
         System.out.println("\nIn thông tin.\n");
         ft1.tinhLuong();
         ft1.inttFullTime();
+
     }
 }

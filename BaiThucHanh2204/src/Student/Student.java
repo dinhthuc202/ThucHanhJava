@@ -10,9 +10,9 @@ public class Student extends Person{
     {
         nhaptt();
         System.out.print("Lớp: ");
-        Lop = sc.next();
+        Lop = sc.nextLine();
         System.out.print("Mã sinh viên: ");
-        Msv = sc.next();
+        Msv = sc.nextLine();
     }
 
     protected void inttStudent()

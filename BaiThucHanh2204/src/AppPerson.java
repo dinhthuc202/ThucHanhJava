@@ -2,6 +2,8 @@ import Employee.FullTimeEmployee;
 import Employee.PartTimeEmployee;
 import Student.OfflineStudent;
 import Student.OnlineStudent;
+import Customer.Customer;
+import Customer.VipCustomer;
 
 public class AppPerson {
     public static void main(String[] args) throws Exception {
@@ -28,5 +30,14 @@ public class AppPerson {
         ft1.tinhLuong();
         ft1.inttFullTime();
 
+        Customer c1 = new Customer();
+        c1.nhapttCustomer();
+        System.out.println("\nIn thông tin.\n");
+        c1.inttCustomer();
+
+        VipCustomer V1 = new VipCustomer();
+        V1.nhapttVipCustomer();
+        System.out.println("\nIn thông tin.\n");
+        V1.inttVipCustomer();
     }
 }

@@ -18,7 +18,7 @@ public class App2904 {
         t1.InTriangle();
         System.out.println(" ");
         t1.OutTriangle();
-    
+
         Quadrilateral q1 = new Quadrilateral();
         q1.InQuadrilateral();
         System.out.println(" ");

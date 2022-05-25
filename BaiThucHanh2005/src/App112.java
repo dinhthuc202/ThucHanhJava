@@ -23,7 +23,7 @@ public class App112 {
                 ThongTin.add(sv);
             }
             tmp++;
-            sc.nextLine();
+            sc.nextLine();//Xóa enter khỏi bộ nhớ đệm
         } while (1>0);
 
         tmp = 0;
